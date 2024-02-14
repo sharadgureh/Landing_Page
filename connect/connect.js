@@ -17,7 +17,7 @@ function emailSend(){
 }).then(
   message => {
   	if(message=='OK'){
-  		swal("Secussful", "You clicked the button!", "success");
+  		swal("Successful", "You clicked the button!", "success");
   	}
   	else{
   		swal("Error", "", "error");
